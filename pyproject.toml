@@ -5,7 +5,11 @@ description = ""
 authors = ["Jens X Augustsson <jens@augustsson.eu>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.8,<3.10"
+pandas = "^1.2.3"
+pyaml = "^20.4.0"
+scikit-learn = "^0.24.1"
+scipy = "^1.6.2"
 
 [tool.poetry.dev-dependencies]
 dvc = "^2.0.14"
