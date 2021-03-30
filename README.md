@@ -1,16 +1,16 @@
 # dvc-code
 
 ## Init
-poetry shell
-poetry install
+    poetry install
+    poetry shell
 
 ## Ingest
-python src/ingest.py
+    python src/ingest.py
 
 ## Run pipeline
-dvc repro
+    dvc repro
 
 ## Store DVC data in tmp remote
-dvc push
+    dvc push
 
 
