@@ -4,13 +4,13 @@
     poetry install
     poetry shell
 
-## Ingest
+## Ingest data
     python src/ingest.py
 
 ## Run pipeline
     dvc repro
 
-## Store DVC data in tmp remote
+## Store data in DVC local remote
     dvc push
 
 
